@@ -13,8 +13,10 @@
 		"build-storybook": "storybook build"
 	},
 	"dependencies": {
+		"@tailwindcss/vite": "^4.1.4",
 		"react": "^19.0.0",
-		"react-dom": "^19.0.0"
+		"react-dom": "^19.0.0",
+		"tailwindcss": "^4.1.4"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",

@@ -1,5 +1,12 @@
 import type { ComponentPropsWithoutRef } from 'react'
 
 export const Button = (props: ComponentPropsWithoutRef<'button'>) => {
-	return <button {...props}>Lol test</button>
+	return (
+		<button
+			className={'cursor-pointer rounded bg-sky-200 px-4 py-2 hover:bg-sky-300'}
+			{...props}
+		>
+			Test button
+		</button>
+	)
 }
