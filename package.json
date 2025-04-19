@@ -14,7 +14,8 @@
 	"files": ["dist"],
 	"scripts": {
 		"dev": "vite",
-		"build": "tsc -b && vite build",
+		"build": "tsc -b && vite build && bun run build-styles",
+		"build-styles": "tailwindcss -m -i ./src/index.css -o ./dist/styles.css",
 		"lint-project": "bunx biome check --write .",
 		"lint-source": "bunx biome check --write ./src",
 		"preview": "vite preview",

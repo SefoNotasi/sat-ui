@@ -5,8 +5,6 @@ export const Button = (props: ComponentPropsWithoutRef<'button'>) => {
 		<button
 			className={'cursor-pointer rounded bg-sky-200 px-4 py-2 hover:bg-sky-300'}
 			{...props}
-		>
-			Test button
-		</button>
+		/>
 	)
 }
