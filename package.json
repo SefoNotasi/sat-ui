@@ -9,6 +9,10 @@
 			"types": "./dist/index.d.ts",
 			"import": "./dist/sat-ui.es.js",
 			"require": "./dist/sat-ui.umd.js"
+		},
+		"./styles.css": {
+			"require": "./dist/styles.css",
+			"default": "./dist/styles.css"
 		}
 	},
 	"files": ["dist"],
