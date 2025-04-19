@@ -6,7 +6,8 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -b && vite build",
-		"lint": "bunx biome check --write .",
+		"lint-project": "bunx biome check --write .",
+		"lint-source": "bunx biome check --write ./src",
 		"preview": "vite preview"
 	},
 	"dependencies": {
